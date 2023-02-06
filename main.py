@@ -12,4 +12,5 @@ content = request.json()
 # Access the article titles and description
 for article in content["articles"]:
     print(article["title"])
+    print(article["description"])
 
